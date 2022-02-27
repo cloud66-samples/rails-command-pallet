@@ -1,0 +1,14 @@
+<div class="w-1/2 mx-auto bg-white border border-gray-300 rounded mt-24">
+  <div id="command_pallet" data-controller="search" data-search-url-value="<%= index_path %>" class="p-10">
+    <input id="search" 
+    class="border-2 border-gray-200 p-4 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full rounded-md text-lg" 
+    placeholder="search here"
+    data-search-target="input"
+    data-action="input->search#search"
+    />
+    <div id="results" class="mt-8 hidden"
+        data-search-target="results">
+      Results here
+    </div>
+  </div>
+</div>

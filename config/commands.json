@@ -1,0 +1,39 @@
+{
+    "default": [
+        {
+            "icon": "compass",
+            "title": "Settings",
+            "url": "/settings",
+            "alternatives": [
+                "configuration",
+                "config",
+                "settings",
+                "configuration",
+                "config",
+                "settings"
+            ],
+            "type": "command"
+        },
+        {
+            "icon": "user",
+            "title": "Account",
+            "url": "/account",
+            "alternatives": [
+                "account",
+                "user",
+                "profile"
+            ],
+            "type": "command"
+        },
+        {
+            "icon": "sign-out",
+            "title": "Logout",
+            "url": "/logout",
+            "alternatives": [
+                "logout",
+                "sign-out"
+            ],
+            "type": "command"
+        }
+    ]
+}
